@@ -20,7 +20,13 @@ FASTAPI를 이용한 IRIS 분류, 영화추천시스템, 캡스톤프로젝트
    
 ![image](https://github.com/minsu0818/2024FASTAPI/assets/144076842/1719b977-653d-43dd-bfc0-f79ad13fdf5a)
 
-   *
+   * 사진을 보면 body에 feature에 맞게 할당되는 값은 넣고 localhost:8000/predict에 요청을 했을때 밑에 response로 body에 아까 요청한 값이 예측 결과로 바뀌어 나온 것을 볼 수 있다.<br/>
+   
+![image](https://github.com/minsu0818/2024FASTAPI/assets/144076842/f14028e1-6644-4bda-b06f-f7326a2e1917)
+<br/>
+예측결과를 prob의 리스트로 받았을때의 결과 값이다
+
+
 
 
 
