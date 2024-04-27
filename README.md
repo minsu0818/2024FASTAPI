@@ -6,18 +6,20 @@ FASTAPI를 이용한 IRIS 분류, 영화추천시스템, 캡스톤프로젝트
    seaborn 라이브러리의 분꽃 데이터
    
  * iris model 만들기
- 위의 데이터를 기반으로 irisModel.py를 이용하여 sepal_length, sepal_width, petal_length, petal_width의 값에 따라 분꽃의 종류를 선별하는 모델을 만든다.
+ 위의 데이터를 기반으로 irisModel.py를 이용하여 sepal_length, sepal_width, petal_length, petal_width의 값에 따라 분꽃의 종류를 선별하는 모델을 만들었습니다.
 
 # 일반 모델 api로 만들기 
  * Fastapi란 
    "FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints."
    -FastAPI 깃허브 페이지 출처
 
-   이렇듯 fastapi는 파이썬 기반 오픈소스 웹 프레임워크인데 api서버용으로 사용된다.<br/>
+   이렇듯 fastapi는 파이썬 기반 오픈소스 웹 프레임워크인데 api서버용으로 사용됩니다.<br/>
  * Fastapi의 장점<br/>
-   자신의 컴퓨터로만 돌리던 모델을 api로 바꿔 로컬에서도 사용할 수 있도록 해준다.
+   flask나 react와는 달리 쉽고 편리하게 모델을 api서버로 구축하여 로컬에서도 사용할 수 있도록 해줍니다.
 
  * Fastapi 사용하기 
+
+   * main.py를 이용하여 iris 예측 서버를 만들었습니다<br/>
    
 ![image](https://github.com/minsu0818/2024FASTAPI/assets/144076842/1719b977-653d-43dd-bfc0-f79ad13fdf5a)
 
@@ -26,7 +28,16 @@ FASTAPI를 이용한 IRIS 분류, 영화추천시스템, 캡스톤프로젝트
    
 ![image](https://github.com/minsu0818/2024FASTAPI/assets/144076842/f14028e1-6644-4bda-b06f-f7326a2e1917)
 <br/>
-예측결과를 prob의 리스트로 받았을때의 결과 값이다
+   *예측결과를 prob의 리스트로 받았을때의 결과 값이다<br/>
+* FrontEnd 구축<br/>
+
+   *iris.html, iris.js를 이용해 홈페이지를 구성해봤습니다<br/>
+![image](https://github.com/minsu0818/2024FASTAPI/assets/144076842/08d984f3-d3b3-4a02-8dff-c01c867cc202)<br/>
+   *꽃받침길이, 꽃받침 넓이, 꽃잎길이, 꽆잎넓이에 값을 넣으면 http://localhost:8000/predict로 요청을 보내 예측을 한 후 밑에 예측한 꽃 이름과 확률들을 열거해주는 홈페이집니다
+
+
+
+
 
 
 
