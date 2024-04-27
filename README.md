@@ -35,7 +35,7 @@ FASTAPI를 이용한 IRIS 분류, 영화추천시스템, 캡스톤프로젝트
 ![image](https://github.com/minsu0818/2024FASTAPI/assets/144076842/08d984f3-d3b3-4a02-8dff-c01c867cc202)<br/>
    *꽃받침길이, 꽃받침 넓이, 꽃잎길이, 꽆잎넓이에 값을 넣으면 http://localhost:8000/predict로 요청을 보내 예측을 한 후 밑에 예측한 꽃 이름과 확률들을 열거해주는 홈페이집니다.<br/>
 
-*데이터 시각화  <br/>
+* 데이터 시각화  <br/>
 
 ![image](https://github.com/minsu0818/2024FASTAPI/assets/144076842/45a92cc0-7b2d-413a-a8eb-07093ac1deef)<br/>
 ![image](https://github.com/minsu0818/2024FASTAPI/assets/144076842/fb65f450-2e9e-48cb-bc80-136a0579c298)<br/>
