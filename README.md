@@ -28,7 +28,7 @@ FASTAPI를 이용한 IRIS 분류, 영화추천시스템, 캡스톤프로젝트
    
 ![image](https://github.com/minsu0818/2024FASTAPI/assets/144076842/f14028e1-6644-4bda-b06f-f7326a2e1917)
 <br/>
-      * 예측결과를 prob의 리스트로 받았을때의 결과 값이다<br/>
+      예측결과를 prob의 리스트로 받았을때의 결과 값이다<br/>
 * FrontEnd 구축<br/>
 
    *iris.html, iris.js를 이용해 홈페이지를 구성해봤습니다<br/>
