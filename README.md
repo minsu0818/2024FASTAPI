@@ -13,9 +13,14 @@ FASTAPI를 이용한 IRIS 분류, 영화추천시스템, 캡스톤프로젝트
    "FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints."
    -FastAPI 깃허브 페이지 출처
 
-   이렇듯 fastapi는 파이썬 기반 오픈소스 웹 프레임워크인데 api서버용으로 사용된다.
+   이렇듯 fastapi는 파이썬 기반 오픈소스 웹 프레임워크인데 api서버용으로 사용된다.<br/>
+   자신의 컴퓨터로만 돌리던 모델을 공용서버에 업로드하여 로컬에서도 사용할 수 있도록 할당하게 해준다.
+
+ * Fastapi 사용하기 
    
 ![image](https://github.com/minsu0818/2024FASTAPI/assets/144076842/1719b977-653d-43dd-bfc0-f79ad13fdf5a)
+
+   *
 
 
 
