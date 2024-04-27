@@ -28,12 +28,29 @@ FASTAPI를 이용한 IRIS 분류, 영화추천시스템, 캡스톤프로젝트
    
 ![image](https://github.com/minsu0818/2024FASTAPI/assets/144076842/f14028e1-6644-4bda-b06f-f7326a2e1917)
 <br/>
-      예측결과를 prob의 리스트로 받았을때의 결과 값이다<br/>
+      예측결과를 prob의 리스트로 받았을때의 결과 값입니다<br/>
 * FrontEnd 구축<br/>
 
    *iris.html, iris.js를 이용해 홈페이지를 구성해봤습니다<br/>
 ![image](https://github.com/minsu0818/2024FASTAPI/assets/144076842/08d984f3-d3b3-4a02-8dff-c01c867cc202)<br/>
-   *꽃받침길이, 꽃받침 넓이, 꽃잎길이, 꽆잎넓이에 값을 넣으면 http://localhost:8000/predict로 요청을 보내 예측을 한 후 밑에 예측한 꽃 이름과 확률들을 열거해주는 홈페이집니다
+   *꽃받침길이, 꽃받침 넓이, 꽃잎길이, 꽆잎넓이에 값을 넣으면 http://localhost:8000/predict로 요청을 보내 예측을 한 후 밑에 예측한 꽃 이름과 확률들을 열거해주는 홈페이집니다.<br/>
+
+*데이터 시각화  <br/>
+
+![image](https://github.com/minsu0818/2024FASTAPI/assets/144076842/45a92cc0-7b2d-413a-a8eb-07093ac1deef)<br/>
+![image](https://github.com/minsu0818/2024FASTAPI/assets/144076842/fb65f450-2e9e-48cb-bc80-136a0579c298)<br/>
+
+
+
+   * iris.html, irir.js의 머리 부분에 위 코드들을 추가하여 시각화를 진행할 수 있도록 했습니다.<br/>
+![image](https://github.com/minsu0818/2024FASTAPI/assets/144076842/b0520eae-59d6-4594-b3c8-d114dff4aaea)<br/>
+   * 나올 수 있는 확률들이 시각화 돼서 그래프로 나온 것을 확인 할 수 있습니다.
+
+
+
+
+
+  
 
 
 
