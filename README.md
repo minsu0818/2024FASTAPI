@@ -2,7 +2,22 @@
 FASTAPI를 이용한 IRIS 분류, 영화추천시스템, 캡스톤프로젝트
 
 # 붓꽃 분류 시스템
- * 1. 사용 데이터 
+ * 사용 데이터
+   seaborn 라이브러리의 분꽃 데이터
+   
+ * iris model 만들기
+ 위의 데이터를 기반으로 irisModel.py를 이용하여 sepal_length, sepal_width, petal_length, petal_width의 값에 따라 분꽃의 종류를 선별하는 모델을 만든다.
+
+# 일반 모델 api로 만들기 
+ * Fastapi란 
+   "FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints."
+   -FastAPI 깃허브 페이지 출처
+
+   이렇듯 fastapi는 파이썬 기반 오픈소스 웹 프레임워크인데 api서버용으로 사용된다.
+   
+![image](https://github.com/minsu0818/2024FASTAPI/assets/144076842/1719b977-653d-43dd-bfc0-f79ad13fdf5a)
+
+
 
 -------------------------------
 
