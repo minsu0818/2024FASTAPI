@@ -87,7 +87,26 @@ uvicorn==0.27.1
 
    * 이제 3개를 서로서로 이어 하나의 데이터 프레임으로 완성 시킬 것 입니다<br/>
    
-     movies + links<br/>
+      1단계: movies + links<br/>
+
+      ![image](https://github.com/minsu0818/2024FASTAPI/assets/144076842/b6f879a0-1a57-4107-9d15-452e7d6e6ca0)<br/>
+
+      위 코드를 이용하여 movies랑 links를 합칠 것 입니다.<br/>
+
+      2단계: add_url <br/>
+
+      ![image](https://github.com/minsu0818/2024FASTAPI/assets/144076842/cd66caf0-9397-4729-ad23-6976ad482a7a)<br/>
+
+     위 코드를 이용하여 url까지 추가하겠습니다.<br/>
+
+     3단계: rating_count, rating_avg 추가 <br/>
+
+     
+      ![image](https://github.com/minsu0818/2024FASTAPI/assets/144076842/40ee33e5-c207-454a-afbc-422ca7caaeba)
+     agg_df = ratings_df.groupby('movieId').agg(rcount = ('rating', 'count'), rmean=('rating', 'mean'))
+
+     
+
 
 
 
