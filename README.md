@@ -102,7 +102,7 @@ uvicorn==0.27.1
      3단계: rating_count, rating_avg 추가 <br/>
 
      
-      ![image](https://github.com/minsu0818/2024FASTAPI/assets/144076842/40ee33e5-c207-454a-afbc-422ca7caaeba)
+      ![image](https://github.com/minsu0818/2024FASTAPI/assets/144076842/40ee33e5-c207-454a-afbc-422ca7caaeba)<br/>
      agg_df = ratings_df.groupby('movieId').agg(rcount = ('rating', 'count'), rmean=('rating', 'mean'))
 
      
