@@ -112,7 +112,7 @@ uvicorn==0.27.1
        
       
      
-    * fastapi 설정</br>
+   * fastapi 설정</br>
       1. app/main.py를 돌려 서버를 설정합니다.<br/>
       2. main.py를 돌림으로써 127.0.0.1:8000에서 사용자 보내는 all과 genre에 관한 요청을 받을 수 있게 하였습니다.<br/>
 
@@ -125,9 +125,9 @@ uvicorn==0.27.1
 
      * 마지막 결과물
      
-      ![ascasc](https://github.com/minsu0818/2024FASTAPI/assets/144076842/c8787c04-c94a-4e63-aed8-4a68a9b47663)
-      ![ascasccas](https://github.com/minsu0818/2024FASTAPI/assets/144076842/f0b33f9a-c3c8-4b74-97a4-eb1ebccb41b8)
-      ![제목 없음](https://github.com/minsu0818/2024FASTAPI/assets/144076842/5d0e6c2e-5b49-4bab-8f7d-c23fd8f08461)
+      ![image](https://github.com/minsu0818/2024FASTAPI/assets/144076842/c8787c04-c94a-4e63-aed8-4a68a9b47663)
+      ![image](https://github.com/minsu0818/2024FASTAPI/assets/144076842/f0b33f9a-c3c8-4b74-97a4-eb1ebccb41b8)
+      ![image](https://github.com/minsu0818/2024FASTAPI/assets/144076842/5d0e6c2e-5b49-4bab-8f7d-c23fd8f08461)
 
 
 
