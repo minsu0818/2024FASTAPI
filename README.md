@@ -75,7 +75,26 @@ tzdata==2024.1
 uvicorn==0.27.1
 ------------
 
-# 영화추천시스템 
+# 영화추천시스템 <br/>
+
+   * 데이터
+     movies.csv <br/>
+     ![image](https://github.com/minsu0818/2024FASTAPI/assets/144076842/19d9a7e6-a605-4a28-bc0b-c9dbb0f3fcb6)<br/>
+     ratings.csv <br/>
+     ![image](https://github.com/minsu0818/2024FASTAPI/assets/144076842/ac416a3d-cfc0-4f12-b3e4-0e74a2466d32)<br/>
+     links.csv <br/>
+     ![image](https://github.com/minsu0818/2024FASTAPI/assets/144076842/c52b4ae7-29b5-4acc-aa34-7c7d584cac8b)<br/>
+
+   * 이제 3개를 서로서로 이어 하나의 데이터 프레임으로 완성 시킬 것 입니다<br/>
+   
+     movies + links<br/>
+
+
+
+      
+     1단계
+   * fastapi 설정</br?
+   main.py를 돌려 서버를 설정 합니다. 
 ------------------------
 개발환경
 ﻿annotated-types==0.6.0
