@@ -125,6 +125,11 @@ uvicorn==0.27.1
 
      * 마지막 결과물
      
+      ![ascasc](https://github.com/minsu0818/2024FASTAPI/assets/144076842/c8787c04-c94a-4e63-aed8-4a68a9b47663)
+      ![ascasccas](https://github.com/minsu0818/2024FASTAPI/assets/144076842/f0b33f9a-c3c8-4b74-97a4-eb1ebccb41b8)
+      ![제목 없음](https://github.com/minsu0818/2024FASTAPI/assets/144076842/5d0e6c2e-5b49-4bab-8f7d-c23fd8f08461)
+
+
 
       
 
