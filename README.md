@@ -119,7 +119,7 @@ uvicorn==0.27.1
       ![image](https://github.com/minsu0818/2024FASTAPI/assets/144076842/4e42ef36-87b7-4c25-be75-8e436348ee97)<br/>
       이렇게 사용자에게 영화 추천을 무작위로 해주는 api 와 장르에 따라 영화를 추천해주는 api 서버를 설정했습니다.
 
-     * frontend 
+   * frontend 
 
      * movier.html, movier.js를 이용하여 홈페이지를 구성하였습니다 
 
