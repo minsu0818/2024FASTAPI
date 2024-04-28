@@ -1,4 +1,4 @@
-# 2024FASTAPI1
+![image](https://github.com/minsu0818/2024FASTAPI/assets/144076842/d870d2df-5f51-445d-85ca-6cbe590e0a77)# 2024FASTAPI1
 FASTAPI를 이용한 IRIS 분류, 영화추천시스템, 캡스톤프로젝트
 
 # 붓꽃 분류 시스템
@@ -103,17 +103,31 @@ uvicorn==0.27.1
 
      
       ![image](https://github.com/minsu0818/2024FASTAPI/assets/144076842/40ee33e5-c207-454a-afbc-422ca7caaeba)<br/>
-     agg_df = ratings_df.groupby('movieId').agg(rcount = ('rating', 'count'), rmean=('rating', 'mean'))
+     agg_df = ratings_df.groupby('movieId').agg(rcount = ('rating', 'count'), rmean=('rating', 'mean'))<br/>
 
+     rating을  rating_count, rating_avg을 통해 수치화시키고 영화에 대응 시켰습니다.<br/>
+
+     * 결과물<br/>
+     ![image](https://github.com/minsu0818/2024FASTAPI/assets/144076842/59c36348-a78d-48de-99f2-1354003e1424)
+       
+      
+     
+    * fastapi 설정</br>
+      1. app/main.py를 돌려 서버를 설정합니다.<br/>
+      2. main.py를 돌림으로써 127.0.0.1:8000에서 사용자 보내는 all과 genre에 관한 요청을 받을 수 있게 하였습니다.<br/>
+
+      ![image](https://github.com/minsu0818/2024FASTAPI/assets/144076842/4e42ef36-87b7-4c25-be75-8e436348ee97)<br/>
+      이렇게 사용자에게 영화 추천을 무작위로 해주는 api 와 장르에 따라 영화를 추천해주는 api 서버를 설정했습니다.
+
+     * frontend 
+
+     * movier.html, movier.js를 이용하여 홈페이지를 구성하였습니다 
+
+     * 마지막 결과물
      
 
-
-
-
       
-     1단계
-   * fastapi 설정</br?
-   main.py를 돌려 서버를 설정 합니다. 
+
 ------------------------
 개발환경
 ﻿annotated-types==0.6.0
